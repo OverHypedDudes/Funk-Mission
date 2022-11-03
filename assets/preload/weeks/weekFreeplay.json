@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Grayscale", "gray", [183, 183, 183]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Spy Vs Spy",
+	"difficulties": "Normal",
+	"weekBefore": "",
+	"weekName": "Week Freeplay",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

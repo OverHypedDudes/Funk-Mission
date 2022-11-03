@@ -1,0 +1,5 @@
+white
+whiteLineArt
+black
+blackLineArt
+gray

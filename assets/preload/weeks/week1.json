@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Confidential", "black", [255, 255, 255]],
+		["Trickster", "black", [255, 255, 255]],
+		["Top-Secret", "black", [255, 255, 255]]
+
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+	"difficulties": "Normal",
+	"storyName": "Spy Vs Spy",
+	"weekBefore": "",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

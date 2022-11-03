@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-151
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left pose"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-92,
+				-160
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down pose"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-185,
+				-8
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up pose"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-140
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right pose"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				-151
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Left miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-96,
+				-184
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-166,
+				-78
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "but fallas"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				-144
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Right miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				-85
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle white"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				132,
+				151
+			],
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "dies"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-308,
+				-392
+			],
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "died loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-308,
+				-345
+			],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "play again"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				-107
+			],
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "dodge"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/white_agent",
+	"position": [
+		-90,
+		70
+	],
+	"healthicon": "white",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		50,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
