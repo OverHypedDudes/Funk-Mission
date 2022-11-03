@@ -1141,11 +1141,14 @@ class PlayState extends MusicBeatState
 	}
 
 	public function startVideo(name:String):Void {
+		#if VIDEOS_ALLOWED
 		var foundFile:Bool = false;
-		var fileName:String = '';
+		var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
+		#if sys
 		if(FileSystem.exists(fileName)) {
 			foundFile = true;
 		}
+		#end
 
 		if(!foundFile) {
 			fileName = Paths.video(name);
@@ -1176,6 +1179,7 @@ class PlayState extends MusicBeatState
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 			startAndEnd();
 		}
+		#end
 		startAndEnd();
 	}
 
